@@ -183,6 +183,7 @@ video
 
 -  Demonstrates how digital logic (CPU) drives an analog component (DAC)
 
+<img width="1280" height="800" alt="Image" src="https://github.com/user-attachments/assets/37c14851-2f75-46c8-bed6-7d964b1ae89e" />
 
  ##  Tools Used
 
