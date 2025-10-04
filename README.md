@@ -32,6 +32,8 @@ It serves as an educational and experimental platform for SoC design, clock mana
 A System on Chip (SoC) is like a complete computer on a single silicon chip.
 It combines multiple components that earlier existed separately on boards.
 
+<img width="1978" height="1062" alt="image" src="https://github.com/user-attachments/assets/39a35044-57ce-469f-954b-981b55c84f7e" />
+
 🔹 Main Components
 
 - CPU (RVMYTH – RISC-V Core) → Main processing brain
@@ -96,7 +98,7 @@ Output (saved as OUT) can drive TVs, speakers, etc.
 
 🔖 Demonstrates digital-to-analog communication in real applications
 
-<img width="1361" height="1123" alt="image" src="https://github.com/user-attachments/assets/52a53868-d240-4d86-b3cc-2d65efd24942" />
+<img width="1708" height="608" alt="image" src="https://github.com/user-attachments/assets/84069a78-6dde-45f8-82b4-04276deb8295" />
 
 ## Key Components Explained
 
@@ -130,3 +132,17 @@ Common DAC types:
 
 - In VSDBabySoC → 10-bit DAC → 1/1024 analog precision
 
+##  SoC Design Flow 
+
+| **Step** | **Description** | **Why it Matters** |
+|-----------|------------------|--------------------|
+| **1. Specification** | Define target performance, power, area, features | Foundation for design |
+| **2. IP Selection** | Choose CPU, memory, PLL, DAC, interconnect | Building blocks |
+| **3. Integration (RTL)** | Connect IPs using buses, define clocks/power | Make it one system |
+| **4. Verification** | Simulation, CDC checks, UPF/CPF power checks | Catch design bugs early |
+| **5. Synthesis & PnR** | Convert RTL → gates → physical layout | Prepares chip for fab |
+| **6. Timing/Power Checks** | Ensure no setup/hold/power violations | Reliability check |
+| **7. Tape-out** | Final GDSII → fabrication | Real chip manufacturing |
+
+
+🔓***This project provides a hands-on learning platform for understanding SoC fundamentals, including clock management, digital-to-analog conversion, and system-level integration. It also serves as an educational example of open-source silicon design using the SkyWater130 PDK, helping learners explore concepts of mixed-signal SoCs, verification flow, and RISC-V architecture in a practical and easy-to-understand way.***
