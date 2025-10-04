@@ -1,7 +1,7 @@
 #  VSDBabySoC — RISC-V + PLL + DAC System-on-Chip Simulation
 
-This project implements a simplified **System-on-Chip (SoC)** that integrates a RISC-V CPU core (`RVMYTH`), a **PLL**, and a **DAC**.  
-The design is simulated using **Icarus Verilog** and visualized in **GTKWave**.
+🔓 *This project implements a simplified **System-on-Chip (SoC)** that integrates a RISC-V CPU core (`RVMYTH`), a **PLL**, and a **DAC**.  
+The design is simulated using **Icarus Verilog** and visualized in **GTKWave**.*
 
 ---
 
@@ -168,6 +168,10 @@ For VREF = 1.0 V:
 🔹 Full SoC DAC Output
 
 <img width="1280" height="800" alt="Image" src="https://github.com/user-attachments/assets/2fb637a7-c80f-4e6a-a202-71a6de563c41" />
+
+video 
+
+![Image](https://github.com/user-attachments/assets/614f759b-57e2-451d-86ab-de3ddaf7eca4)
 
 ## Summary
 
