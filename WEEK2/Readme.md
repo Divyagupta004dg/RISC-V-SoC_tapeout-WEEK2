@@ -153,9 +153,7 @@ For VREF = 1.0 V:
 
 **Formula:**
 
-\[
-V_{OUT} = \frac{r17}{1023} \times V_{REF}
-\]
+`V_OUT = (r17 / 1023) * V_REF`
 
 ### Example Waveforms
 
