@@ -158,3 +158,34 @@ For VREF = 1.0 V:
 ### Example Waveforms
 
 🔹 PLL and Clock Output
+
+# VIDEO outputs of gtkwave
+
+![Image](https://github.com/user-attachments/assets/92d45c3a-7816-4faa-acbd-cfff79c202f4)
+
+<img width="1280" height="800" alt="Image" src="https://github.com/user-attachments/assets/35cfb1eb-3ecc-489d-a68d-b8d68e89d257" />
+
+🔹 Full SoC DAC Output
+
+<img width="1280" height="800" alt="Image" src="https://github.com/user-attachments/assets/2fb637a7-c80f-4e6a-a202-71a6de563c41" />
+
+## Summary
+
+-  Integrated RISC-V + PLL + DAC on a virtual SoC
+
+-  Simulated using open-source tools (Icarus Verilog, GTKWave)
+
+- Generated analog-like DAC output from digital CPU instructions
+
+-  Demonstrates how digital logic (CPU) drives an analog component (DAC)
+
+ ##  Tools Used
+
+| **Tool** | **Purpose** |
+|----------|-------------|
+| SandPiper-SaaS | TL-Verilog → Verilog conversion |
+| Icarus Verilog (iverilog) | RTL simulation |
+| GTKWave | Waveform visualization |
+| Python venv | Virtual environment setup |
+
+
